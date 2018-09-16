@@ -1,7 +1,7 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 
-def fizzbuzz(fizz_3, fizz_5, fizz_15, fizz_4)
+def fizzbuzz(int)
   if int % 3 == 0 and int % 5 == 0
     return "FizzBuzz"
   elsif int % 3 == 0
@@ -13,4 +13,4 @@ def fizzbuzz(fizz_3, fizz_5, fizz_15, fizz_4)
   end
 end
 
-puts fizzbuzz(3, 5, 15, 4)
+puts fizzbuzz(3)
