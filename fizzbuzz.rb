@@ -14,4 +14,3 @@ def fizzbuzz(fizz_3, fizz_5, fizz_15, fizz_4)
 end
 
 fizzbuzz(3, 5, 15, 4)
-
