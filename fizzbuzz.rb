@@ -5,12 +5,12 @@ fizz_5 = fizzbuzz(5)
 fizz_15 = fizzbuzz(15)
 
 def fizzbuzz()
-  if 
-    return "Fizz"
-  elsif fizz_5
-    return "Buzz"
-  elsif fizz_15
+  if int % 3 == 0 and int % 5 == 0
     return "FizzBuzz"
+  elsif int % 3 == 0
+    return "Fizz"
+  elsif int % 5 == 0
+    return "Buzz"
   else
     return nil
   end
